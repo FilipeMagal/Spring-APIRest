@@ -4,7 +4,9 @@ import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonFormat;
 import com.ligjet.controlecliente.controlecliente.service.OrdemServicoService;
 import jakarta.persistence.*;
+import lombok.AllArgsConstructor;
 import lombok.Getter;
+import lombok.NoArgsConstructor;
 import lombok.Setter;
 import org.antlr.v4.runtime.misc.NotNull;
 import org.hibernate.annotations.Cascade;
@@ -13,6 +15,7 @@ import java.time.LocalDateTime;
 @Getter//Anotação do Lombok usada para gerar automaticamente método de acesso (get)
 @Setter//Anotação do Lombok usada para gerar automaticamente método de modificação (set)
 @Entity//Anotação do JPA que define uma entidade persistente
+@NoArgsConstructor//Anotação no Lombok usada para gerar automaticamente construtor sem argumentos
 public class OrdemServico {
 
     @Id//Anotação do JPA para criar o id
@@ -36,9 +39,6 @@ public class OrdemServico {
     @PrePersist//Anotação do JPA utilizada para definir um método que deve ser executado antes que uma entidade seja persistida no banco de dados.
     public void prePersist() {
         this.dataInicio = LocalDateTime.now();
-    }
-
-    public OrdemServico() {
     }
 
     public OrdemServico(Long id, String descricao, String valorOrcamento, boolean aprovado) {

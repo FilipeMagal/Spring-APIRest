@@ -12,8 +12,7 @@ import java.util.List;
 @Getter//Anotação do Lombok usada para gerar automaticamente método de acesso (get)
 @Setter//Anotação do Lombok usada para gerar automaticamente método de modificação (set)
 @Entity//Anotação do JPA que define uma entidade persistente
-@AllArgsConstructor
-@NoArgsConstructor
+@NoArgsConstructor//Anotação no Lombok usada para gerar automaticamente construtor sem argumentos
 public class Cliente {
 
     @Id//Anotação do JPA para criar o id
