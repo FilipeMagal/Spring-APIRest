@@ -1,15 +1,10 @@
-package com.ligjet.controlecliente.controlecliente.entity;
+package com.ligjet.controlecliente.controlecliente.controlecliente.entity;
 
-import com.fasterxml.jackson.annotation.JsonBackReference;
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.ligjet.controlecliente.controlecliente.service.OrdemServicoService;
 import jakarta.persistence.*;
-import lombok.AllArgsConstructor;
 import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
-import org.antlr.v4.runtime.misc.NotNull;
-import org.hibernate.annotations.Cascade;
 
 import java.time.LocalDateTime;
 @Getter//Anotação do Lombok usada para gerar automaticamente método de acesso (get)

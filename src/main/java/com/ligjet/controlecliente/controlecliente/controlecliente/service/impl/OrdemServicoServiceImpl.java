@@ -1,12 +1,11 @@
-package com.ligjet.controlecliente.controlecliente.service.impl;
+package com.ligjet.controlecliente.controlecliente.controlecliente.service.impl;
 
-import com.ligjet.controlecliente.controlecliente.entity.Cliente;
-import com.ligjet.controlecliente.controlecliente.entity.OrdemServico;
-import com.ligjet.controlecliente.controlecliente.repository.OrdemServicoRepository;
-import com.ligjet.controlecliente.controlecliente.service.OrdemServicoService;
+import com.ligjet.controlecliente.controlecliente.controlecliente.entity.Cliente;
+import com.ligjet.controlecliente.controlecliente.controlecliente.service.OrdemServicoService;
+import com.ligjet.controlecliente.controlecliente.controlecliente.entity.OrdemServico;
+import com.ligjet.controlecliente.controlecliente.controlecliente.repository.OrdemServicoRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
-import org.springframework.transaction.annotation.Transactional;
 
 import java.time.LocalDateTime;
 import java.util.List;

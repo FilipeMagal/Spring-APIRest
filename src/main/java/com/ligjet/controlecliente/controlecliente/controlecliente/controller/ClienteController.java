@@ -1,7 +1,7 @@
-package com.ligjet.controlecliente.controlecliente.controller;
+package com.ligjet.controlecliente.controlecliente.controlecliente.controller;
 
-import com.ligjet.controlecliente.controlecliente.entity.Cliente;
-import com.ligjet.controlecliente.controlecliente.service.ClienteService;
+import com.ligjet.controlecliente.controlecliente.controlecliente.service.ClienteService;
+import com.ligjet.controlecliente.controlecliente.controlecliente.entity.Cliente;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

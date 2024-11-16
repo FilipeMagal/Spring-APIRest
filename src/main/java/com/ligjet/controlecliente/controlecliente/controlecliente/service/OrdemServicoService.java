@@ -1,7 +1,7 @@
-package com.ligjet.controlecliente.controlecliente.service;
+package com.ligjet.controlecliente.controlecliente.controlecliente.service;
 
-import com.ligjet.controlecliente.controlecliente.entity.Cliente;
-import com.ligjet.controlecliente.controlecliente.entity.OrdemServico;
+import com.ligjet.controlecliente.controlecliente.controlecliente.entity.Cliente;
+import com.ligjet.controlecliente.controlecliente.controlecliente.entity.OrdemServico;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

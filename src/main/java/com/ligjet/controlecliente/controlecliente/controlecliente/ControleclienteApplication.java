@@ -1,9 +1,7 @@
-package com.ligjet.controlecliente.controlecliente;
+package com.ligjet.controlecliente.controlecliente.controlecliente;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.ComponentScan;
-import org.springframework.context.annotation.Configuration;
 
 
 @SpringBootApplication
